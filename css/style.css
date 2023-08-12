@@ -1,0 +1,213 @@
+/* start global  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* end global  */
+
+/* start container  */
+.container {
+    width: 80%;
+    padding-top: 20px;
+}
+
+/* end container */
+
+/* start right section  */
+.right {
+    float: right;
+}
+
+/* start form  */
+form {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    text-align: center;
+    width: 350px;
+    margin-top: 10px;
+}
+
+form img {
+    padding: 20px 0;
+}
+
+input {
+    width: 80%;
+    margin-bottom: 10px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+input[type=submit] {
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #0988dd;
+}
+
+::placeholder {
+    padding-left: 10px;
+}
+
+input:focus {
+    outline: 1px solid #0095f6;
+}
+
+.or {
+    position: relative;
+    margin: 20px 0;
+}
+
+.or p {
+    color: #8b8686;
+    font-weight: bold;
+}
+
+.or p::after {
+    content: "";
+    position: absolute;
+    width: 110px;
+    height: 2px;
+    background-color: #cccccc91;
+    bottom: 9px;
+    right: 40px;
+}
+
+.or p::before {
+    content: "";
+    position: absolute;
+    width: 110px;
+    height: 2px;
+    background-color: #cccccc91;
+    bottom: 9px;
+    left: 40px;
+}
+
+.facebook {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.facebook i {
+    margin-right: 10px;
+    color: #385185;
+    font-size: 25px;
+}
+
+.facebook i:hover {
+    color: #1a5be9;
+}
+
+.facebook a {
+    text-decoration: none;
+    color: #385185;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.facebook a:hover {
+    color: #1a5be9;
+}
+
+form a {
+    text-decoration: none;
+    color: #385185;
+    color: #385185;
+    font-size: 14px;
+    margin: 10px 0;
+    display: inline-block;
+    font-weight: bold;
+}
+
+form a:hover {
+    color: #1a5be9;
+}
+
+/* end form  */
+/* start new account  */
+.account {
+    text-align: center;
+}
+
+.account p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 2px;
+}
+
+.account p span a {
+    color: #0095F6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.account p span a:hover {
+    color: #0666a7;
+}
+
+.google-play {
+    text-align: center;
+}
+
+.google-play img {
+    width: 120px;
+    margin: 10px;
+    height: 40px;
+    border-radius: 7px;
+}
+
+
+/* end right section  */
+
+/* start left section  */
+.left {
+    float: left;
+}
+
+.phone {
+    position: relative;
+    top: 30px;
+    left: 200px;
+    width: 300px;
+    height: 530px;
+}
+
+.screen {
+    position: absolute;
+    top: 75px;
+    left: 230px;
+    width: 240px;
+    height: 480px;
+}
+
+.phone2 {
+    position: relative;
+    top: 45px;
+    width: 300px;
+    height: 530px;
+}
+
+.screen2 {
+    position: absolute;
+    top: 90px;
+    left: 335px;
+    width: 240px;
+    height: 485px;
+}
+
+/* end left section  */
